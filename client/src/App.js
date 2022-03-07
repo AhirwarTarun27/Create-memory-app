@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Container, AppBar, Typography, Grow, Grid } from "@material-ui/core";
 import { useDispatch } from "react-redux";
 
-import memories from "./images/memories.png";
+import memories from "./images/memory.png";
 import useStyles from "./styles";
 import { Form } from "./components/Form/Form";
 import { Posts } from "./components/Posts/Posts";
@@ -40,7 +40,7 @@ export default function App() {
             <Grid item xs={12} sm={7}>
               <Posts />
             </Grid>
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={15} sm={4}>
               <Form />
             </Grid>
           </Grid>
