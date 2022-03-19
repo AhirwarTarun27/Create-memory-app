@@ -14,7 +14,9 @@ I added various functionility In this app like Posting, Deleting, updating, Like
 <tr>
 <td>
 Tech Stack used: 
+  
 ### Front End Library
+  
 - React
 - Material UI
 - Redux - State Management Tool
