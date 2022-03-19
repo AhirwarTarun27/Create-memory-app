@@ -41,6 +41,7 @@ Tech Stack used:
 ---
 
 - **Mobile View**
+
 ![Screenshot (168)](https://user-images.githubusercontent.com/91532627/159137151-b9870df9-4397-426e-937a-cb0f8a43b557.png)
 
 
@@ -48,8 +49,5 @@ Tech Stack used:
 
 
 
-## How to use
-- Clone the repo in your local machine
-- Install node_modules in contact_app folder and server_api folder by using cmd **npm i**
-- Type command **npm start** in both the folder terminal
+
 
