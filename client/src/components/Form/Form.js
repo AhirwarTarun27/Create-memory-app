@@ -23,17 +23,28 @@ export const Form = ({ currentId, setCurrentId }) => {
     if (post) setPostData(post);
   }, [post]);
 
+  const clear = () => {
+    setCurrentId(0);
+    setPostData({
+      creator: "",
+      title: "",
+      message: "",
+      tags: "",
+      selectedFile: "",
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (currentId) {
       dispatch(updatePost(currentId, postData));
+      clear();
     } else {
       dispatch(createPost(postData));
+      clear();
     }
   };
-
-  const clear = () => {};
 
   return (
     <Paper className={classes.paper}>
