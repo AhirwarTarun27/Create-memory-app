@@ -22,9 +22,6 @@ app.get("/", (req, res) => {
   res.send("Hello to Tarun memories app");
 });
 
-// const CONNECTION_URL =
-//   "mongodb+srv://tarunMemory:memory123@memory2.eopjw.mongodb.net/TarunMemories?retryWrites=true&w=majority";
-
 const PORT = process.env.PORT || 5000;
 
 mongoose.Promise = global.Promise;
